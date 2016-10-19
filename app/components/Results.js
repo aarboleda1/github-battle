@@ -6,6 +6,7 @@ var Link = ReactRouter.Link
 var UserDetails = require('./UserDetails');
 var UserDetailsWrapper = require('./UserDetailsWrapper');
 var MainContainer = require('./MainContainer');
+var Loading = require('./Loading')
 
 function StartOver () {
   return (
