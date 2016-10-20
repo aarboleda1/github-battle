@@ -1,4 +1,5 @@
-var axios = require('axios')
+var axios = require('axios');
+var logCustomMessage = require('./logCustomMessage');
 
 //if you do get rate limited fill out those bottom two variables
 var id = "YOUR_CLIENT_ID";

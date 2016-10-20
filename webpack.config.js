@@ -6,6 +6,7 @@ var HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
 });
 
 module.exports = {
+  devtool: 'source-map', //this will allow you to look at problems in the console in the proper place instead of just bundle.js 
   entry: [
     './app/index.js'
   ],

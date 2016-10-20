@@ -15,7 +15,7 @@ var ConfirmBattleContainer = React.createClass({
   	}
   },
   componentWillMount: function () {
-	console.log('component will mount')  
+	
   },
   componentDidMount: function() {
   	var query = this.props.location.query;
